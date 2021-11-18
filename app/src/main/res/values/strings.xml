@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestTask1</string>
+    <string name="didn_t_get_otp_resend">СМС не пришло? <b>Отправить код заново</b></string>
+    <string name="get_verification_code">Получить код</string>
+    <string name="assert_verification_code">Продолжить</string>
+    <string name="phone_number">ВВЕДИТЕ НОМЕР ТЕЛЕФОНА</string>
+    <string name="enter_your_phone_number">Введите ваш номер телефона (РФ)</string>
+    <string name="verification_code">ВВЕДИТЕ КОД ПОДТВЕРЖДЕНИЯ</string>
+    <string name="enter_code_from_SMS">Введите код, полученный из СМС</string>
+</resources>
