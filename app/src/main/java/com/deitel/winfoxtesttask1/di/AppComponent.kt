@@ -32,7 +32,7 @@
  * THE SOFTWARE.
  */
 
-package com.raywenderlich.android.daggerserverrepository.di
+package com.deitel.winfoxtesttask1.di
 
 import com.deitel.winfoxtesttask1.data.MyRepository
 import com.deitel.winfoxtesttask1.di.NetworkModule

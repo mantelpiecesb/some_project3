@@ -1,5 +1,7 @@
 package com.deitel.winfoxtesttask1.api
 
+import com.deitel.winfoxtesttask1.model.Dish
+import com.deitel.winfoxtesttask1.model.Place
 import com.deitel.winfoxtesttask1.model.UserInfo
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -14,6 +16,12 @@ interface BackendAPI {
     suspend fun sendToAPI(
         @Body userInfo: UserInfo
     ): Response<UserInfo>
+
+    @GET("getPlaces")
+    suspend fun getPlaces(): List<Place>
+
+    @GET("getMenu")
+    suspend fun getMenu(): List<Dish>
 
     companion object {
         private const val BASE_URL = "http://94.127.67.113:8099/"

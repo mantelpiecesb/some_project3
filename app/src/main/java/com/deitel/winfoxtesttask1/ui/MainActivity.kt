@@ -15,13 +15,13 @@ import com.deitel.winfoxtesttask1.R
 import com.deitel.winfoxtesttask1.data.MyRepository
 import com.deitel.winfoxtesttask1.model.UserInfo
 import com.deitel.winfoxtesttask1.databinding.ActivityMainBinding
+import com.deitel.winfoxtesttask1.di.DaggerAppComponent
 import com.deitel.winfoxtesttask1.helpers.PhoneAuthHelper
 import com.deitel.winfoxtesttask1.viewmodels.MyViewModelFactory
 import com.google.firebase.FirebaseException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.PhoneAuthCredential
 import com.google.firebase.auth.PhoneAuthProvider
-import com.raywenderlich.android.daggerserverrepository.di.DaggerAppComponent
 
 class MainActivity : AppCompatActivity() {
 

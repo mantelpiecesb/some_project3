@@ -16,8 +16,5 @@ class MyViewModel(private val myRepository: MyRepository): ViewModel() {
             val response = myRepository.checkUser(userInfo)
             mMyResponse.value = response
         }
-
-
     }
-
 }
